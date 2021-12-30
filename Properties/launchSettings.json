@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "owfsmq": {
+      "commandName": "Project",
+      "commandLineArgs": "--help",
+      "environmentVariables": {
+        "Logging:Console:LogLevel": "Debug"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "commandLineArgs": "--config /owfsmqtt/config.json --logLevel DEBUG",
+      "DockerfileRunArguments": "--mount type=bind,source=\"C:\\Dev\\net\\owfsmq\\config.example.json\",target=/owfsmqtt/config.json"
+    }
+  }
+}

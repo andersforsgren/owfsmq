@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "owfsmq", "owfsmq.csproj", "{455FF674-8F37-46D2-AA12-00E92441B6D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{455FF674-8F37-46D2-AA12-00E92441B6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455FF674-8F37-46D2-AA12-00E92441B6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455FF674-8F37-46D2-AA12-00E92441B6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455FF674-8F37-46D2-AA12-00E92441B6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C015847-0D95-4E17-A611-3318D034AAF9}
+	EndGlobalSection
+EndGlobal

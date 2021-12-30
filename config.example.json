@@ -1,0 +1,29 @@
+﻿{
+  "owHttpHost": "http://192.168.0.32:2121",
+  "mqttHost": "192.168.0.32",
+  "mqttPort": 1883,
+  "mqttQoS": 1,
+  "intervalSeconds": 10,
+  "devices": [
+    {
+      "deviceId": "28.187584050000",
+      "measurement": "temperature",
+      "topic": "test/home/crawlspace/temperature/a"
+    },
+    {
+      "deviceId": "28.3A1384050000",
+      "measurement": "temperature",
+      "topic": "test/home/crawlspace/temperature/b"
+    },
+    {
+      "deviceId": "26.9A1592010000/HIH4000",
+      "measurement": "humidity",
+      "topic": "test/home/crawlspace/humidity/a"
+    },
+    {
+      "deviceId": "26.C48265010000/HIH4000",
+      "measurement": "humidity",
+      "topic": "test/home/crawlspace/humidity/b"
+    }
+  ]
+}
